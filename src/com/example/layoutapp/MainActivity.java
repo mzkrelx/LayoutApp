@@ -3,6 +3,7 @@ package com.example.layoutapp;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -29,6 +30,12 @@ public class MainActivity extends Activity {
 				Toast.makeText(getApplicationContext(), "Touch‚³‚ê‚Ü‚µ‚½", Toast.LENGTH_SHORT).show();
 			}
 		});
+        
+        Log.v("TAG", "verbose");
+        Log.d("TAG", "debug");
+        Log.i("TAG", "info");
+        Log.w("TAG", "warn");
+        Log.e("TAG", "error");
     }
 
 
